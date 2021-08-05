@@ -228,6 +228,10 @@ PRODUCT_PACKAGES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-aex
+
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo   
     
 # OTA
 PRODUCT_HOST_PACKAGES += \
